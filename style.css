@@ -3,11 +3,21 @@ header{
    align-items: center;
    justify-content: space-between;
    background: rgb(0, 255, 200);
+  
 }
 h1{
-    font-size: 24px;
-    font-weight: 900;
-    color: black;
+    font-size: 30px;
+    font-weight: 900px;
+    color: blue;
+    cursor: pointer;
+}
+h1:active{
+    background-color: lime;
+    color: red;
+}
+h1:hover{
+    background-color: aqua;
+    color: red;
 }
 .menu{
     width: 25px;
@@ -16,7 +26,7 @@ h1{
     margin: 2px;
 }
 .h2{
-    width: 64%;
+    width: 80%;
     height: 40%;
     margin: 0%;
 }
@@ -24,7 +34,25 @@ p{
     color: azure;
     background-color: black;
     padding: 5px;
+    border: 3px solid lime;
+    padding: 8px;
+    border-radius: 10px;
+    color: blue;
 }
 #sect1{
-    
+    border: 2px solid lime;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: darkseagreen;
+    background-image:url('/image/batex.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+h2{
+    font-size: 40px;
+    cursor: pointer;
+    color: lime;
+    margin-left: 260px;
 }
