@@ -5,9 +5,11 @@ header{
    background: rgb(0, 255, 200);
 }
 h1{
-    font-size: 24px;
-    font-weight: 900;
-    color: black;
+    font-size: 30px;
+    font-weight: 900px;
+    color: blue;
+    margin-left: 5px;
+    padding-left: 10px;
 }
 .menu{
     width: 25px;
@@ -19,6 +21,7 @@ h1{
     width: 64%;
     height: 40%;
     margin: 0%;
+    color:white;
 }
 p{
     color: azure;
@@ -26,5 +29,10 @@ p{
     padding: 5px;
 }
 #sect1{
-    
+    border: 1px solid red;
+    background-image: url('/image/b.jpg');
+    border-radius: 30px;
+}
+.Hen{
+    color: white;
 }
